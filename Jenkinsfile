@@ -7,7 +7,7 @@ pipeline {
         stage("Script") {
             step {
                 script {
-                    sh "chmod +x script-bash-room1.sh"
+                    sh "chmod +x scriptbash.sh"
                     sh "./main"${params._proceso_nombre}"
                     
                 }
