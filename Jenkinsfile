@@ -8,7 +8,7 @@ pipeline {
             step {
                 script {
                     sh "chmod +x scriptbash.sh"
-                    sh "./main"${params._proceso_nombre}"
+                    sh "./main.sh '{${params._proceso_nombre}' "
                     
                 }
             }
