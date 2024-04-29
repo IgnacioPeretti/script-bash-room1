@@ -2,7 +2,6 @@
 PRACTICA DE CLASE - SCRIPT EN BASH.
 
 Requisitos:
-- Tener Github.
 - Tener instalado jenkins en nuestro entorno de trabajo.
 
 Pasos:
